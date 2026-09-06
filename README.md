@@ -22,13 +22,17 @@
   </p>
 </div>
 
+<br>
+
 ## Welcome stalker!
 
 Thanks for stopping by! This is the source code behind my personal portfolio site - a single page that holds my introduction, resume, projects, and a way to reach me. Feel free to poke around the code, fork it, or use it as a reference for your own site.
 
 <a id="-purpose"></a>
 
-## What's the purpose of this?
+<br>
+
+## What's the purpose of this madness?
 
 This hosts the full source of my portfolio website - the one deployed live via GitHub Pages. It contains:
 
@@ -38,6 +42,8 @@ This hosts the full source of my portfolio website - the one deployed live via G
 
 <a id="-why-i-built-this"></a>
 
+<br>
+
 ## Why did I build this?
 
 I wanted a personal site that:
@@ -46,29 +52,32 @@ I wanted a personal site that:
 - Doesn't depend on a framework or CMS - just HTML/CSS/JS, easy to reason about and easy to keep alive long-term. (It's also a showcase of how I develope a website in traditional way, no vibe code or what 😅)
 - Loads fast and stays lightweight, so I set up a proper build step to minify assets before they ship, instead of serving raw source files straight to visitors
 - Deploys itself - push to `main`, and the live site updates without any manual steps
+
+<br>
+
 <div align="center">
-<a id="-tech-stack"></a>
-
-## Simple Tech Stack
-
-<p>
-   <img src="https://skillicons.dev/icons?i=html,css,js,pnpm,github" alt="Dan's Backend Frameworks"/>
-</p>
-
-| Layer | Tool |
-|---|---|
-| **Markup / Styling / Behavior** | HTML5 / CSS3 / Vanilla JavaScript |
-| **Icons** | [Ionicons](https://ionic.io/ionicons) |
-| **Fonts** | [Google Fonts - Poppins](https://fonts.google.com/specimen/Poppins) |
-| **Package manager** | [pnpm](https://pnpm.io) |
-| **Minification** | [html-minifier-terser](https://github.com/terser/html-minifier-terser) / [clean-css-cli](https://github.com/clean-css/clean-css-cli) / [terser](https://github.com/terser/terser) |
-| **CI/CD** | [GitHub Actions](https://github.com/features/actions) |
-| **Hosting** | [GitHub Pages](https://pages.github.com/) |
-
+  <a id="-tech-stack"></a>
+  
+  ## Simple Tech Stack
+  
+  <p>
+     <img src="https://skillicons.dev/icons?i=html,css,js,pnpm,github" alt="Dan's Backend Frameworks"/>
+  </p>
+  
+  | Layer | Tool |
+  |---|---|
+  | **Markup / Styling / Behavior** | HTML5 / CSS3 / Vanilla JavaScript |
+  | **Icons** | [Ionicons](https://ionic.io/ionicons) |
+  | **Fonts** | [Google Fonts - Poppins](https://fonts.google.com/specimen/Poppins) |
+  | **Package manager** | [pnpm](https://pnpm.io) |
+  | **Minification** | [html-minifier-terser](https://github.com/terser/html-minifier-terser) / [clean-css-cli](https://github.com/clean-css/clean-css-cli) / [terser](https://github.com/terser/terser) |
+  | **CI/CD** | [GitHub Actions](https://github.com/features/actions) |
+  | **Hosting** | [GitHub Pages](https://pages.github.com/) |
 </div>
 
 <a id="-development-steps"></a>
 
+<br>
 
 ## Development steps
 
@@ -112,6 +121,8 @@ I wanted a personal site that:
 
 <a id="-deployment-steps"></a>
 
+<br>
+
 ## Deployment steps
 
 Deployment is fully automated - you shouldn't need to do this manually (unless you want your brain to explode, jk.), but here's what happens under the hood:
@@ -128,10 +139,13 @@ Deployment is fully automated - you shouldn't need to do this manually (unless y
 
 To trigger a deploy manually without a new commit, use the **Run workflow** button under the Actions tab (`workflow_dispatch` is enabled).
 
-## 🙌 Outro
-
-That's the whole setup - simple site, simple pipeline, automated deploy. If you spot something off or have suggestions, feel free to open an issue or reach out through the contact info on the site itself. Thanks for reading this far!
+<br>
 
 <div align="center">
+
+  ## Thank you!
+  
+  That's the whole setup - simple site, simple pipeline, automated deploy. If you spot something off or have suggestions, feel free to open an issue or reach out through the contact info on the site itself. Thanks for reading this far!
+
   <sub>Built and maintained by Dan 💫</sub>
 </div>
