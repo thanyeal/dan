@@ -32,7 +32,7 @@ Thanks for stopping by! This is the source code behind my personal portfolio sit
 
 <br>
 
-## What's the purpose of this madness?
+## What's in it?
 
 This hosts the full source of my portfolio website - the one deployed live via GitHub Pages. It contains:
 
