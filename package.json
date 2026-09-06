@@ -1,0 +1,33 @@
+{
+  "name": "my.portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build:html": "html-minifier-terser --collapse-whitespace --remove-comments --minify-css true --minify-js true -o dist/index.html index.html",
+    "build:css": "cleancss -o dist/assets/css/style.css assets/css/style.css",
+    "build:js": "terser assets/js/script.js -o dist/assets/js/script.js --compress --mangle",
+    "build:copy": "node scripts/build.js",
+    "build": "pnpm clean && pnpm build:copy && pnpm build:html && pnpm build:css && pnpm build:js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.3.4",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.3.4",
+  "type": "module",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "html-minifier-terser": "^7.2.0",
+    "terser": "^5.51.2",
+    "rimraf": "^6.0.1"
+  }
+}
