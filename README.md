@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Dan's Portfolio</h1>
+  <h1>my.portfolio</h1>
   <p><img src="assets/images/mockup.jpg" alt="My Porfolio Mock" width="100%"/></p>
   <h3>My personal single-page portfolio site, built plain and shipped minified.</h3>
   <p>HTML / CSS / JavaScript / pnpm build pipeline / GitHub Actions = GitHub Pages</p>
